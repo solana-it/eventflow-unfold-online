@@ -1,7 +1,7 @@
 
 import { Button } from "@/components/ui/button";
 import { Card } from "@/components/ui/card";
-import { Calendar, Users, Video, Chart-bar } from "lucide-react";
+import { Calendar, Users, Video, ChartBar } from "lucide-react";
 
 const Hero = () => {
   return (
@@ -52,7 +52,7 @@ const Hero = () => {
           </Card>
           
           <Card className="bg-white/10 backdrop-blur-lg border-white/20 p-6 hover:bg-white/15 transition-all duration-300 hover:scale-105">
-            <Chart-bar className="w-12 h-12 text-orange-400 mb-4" />
+            <ChartBar className="w-12 h-12 text-orange-400 mb-4" />
             <h3 className="text-white text-lg font-semibold mb-2">Analytics</h3>
             <p className="text-slate-300 text-sm">Real-time insights and post-event reporting</p>
           </Card>
